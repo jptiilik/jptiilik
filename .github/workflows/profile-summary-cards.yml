@@ -8,9 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Antaa luvan kirjoittaa repositoryyn
     steps:
+      - uses: actions/checkout@v3  # Kloonaa repo → workflow voi muokata sitä
+      
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.README_CARDS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: jptiilik
