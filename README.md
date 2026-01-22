@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![](https://github.com/jptiilik/jptiilik/blob/main/profile-summary-card-output/github/0-profile-details.svg)
+
 <!--
 **jptiilik/jptiilik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
